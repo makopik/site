@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="Utf-8">
+<Link rel="stylesheet" href="css/style.css"  to="css/text.css" to="css/menu.css">
+<Link rel="stylesheet" href="css/main.css">
+<link rel="stylesheet" type="text/css" href="css/normalize.css" />
+<link rel="stylesheet" type="text/css" href="css/demo.css" />
+<link rel="stylesheet" type="text/css" href="css/component.css" />
+
+
+<title>Физика</title>
+<link rel=" Shorctcut icon" type="../x-icon" href="imge/Logo.png">
+
+<script src="js/Back-top.js"></script>
+<script src="js/menu.js"></script>
+<script src="js/Js.js"></script>
+<script src="js/demo-4.js"></script>
+</head>
+
+<body>
+
+
+<div class=" warp">
+
+
+	<div class="canvas-wrap">
+	    <canvas id="canvas">
+
+
+	    </canvas>
+	</div>
+	<!-- filters -->
+	<svg xmlns="http://www.w3.org/2000/svg" version="1.1">
+	    <defs>
+	    <filter id="goo">
+	        <feGaussianBlur in="SourceGraphic" result="blur" stdDeviation="12" />
+	        <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -7" result="joint" />
+	    </filter>
+	    </defs>
+	</svg>
+				<h1 class="main-title">Переменный ток</span></h1>
+</div>
+
+  <header>
+		<nav id='cssmenu'>
+			<div class="logo"><a href="index.html">Физика</a></div>
+			<div id="head-mobile"></div>
+			<ul>
+				<li class='active'><a href='index.html'>Введение</a></li>
+				<li><a href='#'>Разделы</a>
+					<ul>
+						<li><a href='mex.html'>Механика</a>
+						</li>
+						<li><a href='mt.html'>Молекулярная физика и термодинамика</a>
+						</li>
+						<li><a href>Электродинамика</a>
+							<ul>
+							<li><a href='ElekStat.html'>Основы электростатики</a></li>
+							<li><a href='PostElekTok.html'>Постоянный электрический ток</a></li>
+							<li><a href='ElectTokVRazl.html'>Электрический ток в различных средах</a></li>
+							<li><a href='RadFis.html'>Физические основы электроники</a></li>
+							<li><a href='MagPole.html'>Магнитная поле тока</a></li>
+							<li><a href='induks.html'>Электромагнитная индукция </a></li>
+							</ul>
+							</li>
+										<li><a href='#'>Колебание и волн</a>
+										<ul>
+										<li><a href='PeremTok.html'>Переменный ток</a></li>
+										<li><a href='MexKoleb_N_voln.html'>Механическое колебание и волны</a></li>
+										</ul>
+											<li><a href='OpSv.html'>Оптика и свет</a>
+											</li>
+											</ul>
+											</li>
+													<li><a href='#'>Задачи</a>
+													<ul>
+													<li><a  href="zad_Mex.html">Механика</a></li>
+													<li><a href="Zad_MT.html">Молекулярная физика и термодинамика</a></li>
+													<li><a href="Zad_Elektro.html">Электродинамика</a></li>
+													<li><a href="Zad_Kol_Voln.html">Колебание и волны</a></li>
+													<li><a href="Zad_Opt.html">Оптика</a></li>
+													</ul>
+
+															<li><a href='#'>Тесты</a>
+															<ul>
+															<li><a  href="TesMex.html">Механика</a></li>
+															<li><a href="TesMT.html">Молекулярная физика и термодинамика</a></li>
+															<li><a href="TesElektro.html">Электродинамика</a></li>
+															<li><a href="TesKolNVoln.html">Колебание и волны</a></li>
+															<li><a href="TesOpt.html">Оптика</a></li>
+															</ul>
+															<li><a href="Video_less.html">Видео уроки</a></li>
+
+<img src="imge/eisht.gif " align="right" height=" 50px" >
+  	</nav>
+  </header>
+
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <script src="js.js"></script>
+
+<div id="text">
+
+	<p>Переменный ток &mdash; любой ток, изменяющийся во времени. Наиболее широкое применение нашёл синусоидальный переменный ток частотой 50 Гц.</p>
+
+	<p>Переменный ток &mdash; это вынужденные электромагнитные колебания</p>
+
+	<p style="margin-left:24.0pt"><img src="imge/PeremTok/1.jpg" style="float:left; height:153px; width:129px" />Генератор переменного тока</p>
+
+	<p style="margin-left:24.0pt">Магнитная индукция в зазоре ротора (вращающегося постоянного магнита или электромагнита) и статора (неподвижного сердечника с обмоткой) изменяется по закону:</p>
+
+	<p><em>b = B<sub>m </sub>cos &alpha; = B<sub>m </sub>cos &omega;t</em></p>
+
+	<p style="margin-left:126.0pt">Магнитный поток через контур равен <em>&Phi; = b</em><em>S</em>, а индукционное электрическое поле имеет <em>ЭДС:<img src="imge/PeremTok/3.png" style="height:41px; width:235px" /></em></p>
+
+	<p>Средняя мощность переменною тока за период равна: <img src="imge/PeremTok/4.png" style="height:41px; width:117px" /></p>
+
+	<p>&nbsp;</p>
+
+	<p style="margin-left:.75pt"><strong>АКТИВНАЯ НАГРУЗКА В ЦЕПИ ПЕРЕМЕННОГО ТОКА</strong></p>
+
+	<p style="margin-left:.75pt">&nbsp;</p>
+
+	<p><strong>Активная нагрузка</strong> &mdash; это устройства, полностью и необратимо преобразующие электрическую энергию в другие виды энергии (тепловая энергия, энергия излучений и другие). Сопротивление таких устройств называют активным (омическим) сопротивлением; и обозначается <em>R</em></p>
+
+	<p>В цепи переменного тока с активной нагрузкой колебания силы тока совпадают по фазе с колебаниями напряжения:</p>
+
+	<p><em>u = U<sub>m</sub> sin </em><em>&omega;</em><em>t</em></p>
+
+	<p><em>i=I<sub>m</sub> sin </em><em>&omega;</em><em>t</em></p>
+
+	<p> <em><img src="imge/PeremTok/2.jpg" style="height:287px; width:324px" /></em></p>
+
+	<p style="margin-left:.75pt">За каждый период <em>Т </em>при прохождении электрического переменного тока по проводнику с активным сопротивлением <em>R</em> выделяется количество теплоты <em>Q</em>, где <em>I</em> &mdash; действующее значение силы тока (на активном участке) :</p>
+
+	<p style="margin-left:.75pt"><img src="imge/PeremTok/5.png" style="height:41px; width:350px" /></p>
+	<p><strong>Действующими значениями напряжения и силы тока</strong> называют значения напряжения и силы постоянного тока, при протекании которого по цепи выделяется такое же количество, как и при переменном.</p>
+
+	<p>&nbsp;</p>
+
+	<p>Действующие значения силы тока и напряжения равны:<img src="imge/PeremTok/6.png" style="height:45px; width:123px" /></p>
+
+	<p>&nbsp;</p>
+
+	<p>Активное сопротивление равно отношению мощности необратимо преобразованной электромагнитной энергии к квадрату действующего значения силы тока:<img src="imge/PeremTok/7.png" style="height:41px; width:51px" /></p>
+
+	<p>&nbsp;</p>
+
+	<p>Для цепи с активной нагрузкой&nbsp;&nbsp;&nbsp; <em>u = </em><em>U<sub>m</sub> </em><em>sin </em><em>&omega;</em><em>t&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </em><em>i=</em><em>I<sub>m</sub> </em><em>sin </em><em>&omega;</em><em>t</em></p>
+
+	<p>&nbsp;</p>
+
+	<p>&nbsp;</p>
+
+	<p style="margin-left:.75pt"><strong>КОНДЕНСАТОР В ЦЕПИ ПЕРЕМЕННОГО ТОКА</strong></p>
+
+	<p>Емкостное сопротивление &mdash; сопротивление <em>Хс</em>, оказываемое переменному току электрическим полем конденсатора.</p>
+
+	<p>Емкостное сопротивление равно:<img src="imge/PeremTok/9.png" style="height:41px; width:69px" /></p>
+
+	<p>&nbsp;где <em>&omega;</em> &mdash; циклическая частота переменного тока, а <em>С</em>&mdash; емкость конденсатора&nbsp;</p>
+
+	<p>В цепи переменного тока с конденсатором происходит только периодический обмен энергией между генератором и конденсатором без необратимого преобразования электромагнитной энергии. Емкостное сопротивление ограничивает силу тока в цепи, как и активное сопротивление, но не преобразует энергию электромагнитного поля в другие виды энергии. Сдвиг по фазе между колебаниями силы тока и напряжения при емкостной нагрузке равен &pi;/2:</p>
+
+	<p><em>u = U<sub>m</sub> sin </em><em>&omega;</em><em>t&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; i=I<sub>m</sub> cos </em><em>&omega;</em><em>t=I<sub>m</sub>=sin(</em><em>&omega;</em><em>t+</em> &pi;/2<em>)</em></p>
+
+	<p><img src="imge/PeremTok/10.png" style="height:209px; width:616px" /></p>
+
+	<p>Средняя за период мощность переменного тока в цепи, содержащей только конденсатор, равна нулю.</p>
+
+	<p>&nbsp;</p>
+
+	<p>&nbsp;</p>
+
+	<p style="margin-left:.3pt"><strong>КАТУШКА ИНДУКТИВНОСТИ В ЦЕПИ ПЕРЕМЕННОГО ТОКА</strong></p>
+
+	<p style="margin-left:.3pt">&nbsp;</p>
+
+	<p style="margin-left:.3pt">Индуктивное сопротивление &mdash; сопротивление <em>Х</em><em><sub>L</sub></em> оказываемое переменному току индукционным электрическим полем.</p>
+
+	<p>Индуктивное сопротивление равно <em>Х</em><em><sub>L</sub> = </em><em>L&omega;, </em>где <em>&omega; &ndash; </em>циклическая частота переменного тока, а <em>L</em> &ndash;индуктивность цепи.</p>
+
+	<p>&nbsp;</p>
+
+	<p>В цепи переменного тока с катушкой индуктивности происходит периодический обмен энергией между генератором и катушкой без необратимого преобразования электромагнитной энергии. Колебания силы тока в цепи. содержащей только катушку индуктивности, отстают от колебаний напряжения на &pi;/2:</p>
+
+	<p><em>u = U<sub>m</sub> cos </em><em>&omega;</em><em>t=U<sub>m</sub> sin( </em><em>&omega;</em><em>t-</em> &pi;/2)<em>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; i=I<sub>m</sub> sin </em><em>&omega;</em><em>t</em></p>
+
+	<p><em><img src="imge/PeremTok/11.png" style="height:207px; width:649px" /></em></p>
+
+	<p>Средняя за период мощность переменного тока в цепи, содержащей только конденсатор, равна нулю.</p>
+
+	<p>&nbsp;</p>
+
+	<p>&nbsp;</p>
+
+	<p><strong>R, C, L&nbsp;&nbsp; В ЦЕПИ ПЕРЕМЕННОГО ТОКА</strong></p>
+
+	<p><strong>Полное сопротивление переменного тока </strong><em>Z&nbsp; - </em>величина, &nbsp;равная<em> &nbsp;
+	</em>отношению действующего&nbsp; ( или амплитудного) значения напряжения к действующему (или амплитудному) значению силы тока: <img src="imge/PeremTok/12.png" style="height:41px; width:48px" /></p>
+
+	<p>При последовательном включении&nbsp; R, X<sub>L, </sub>X<sub>C</sub> &nbsp;&nbsp;оно равно: <img src="imge/PeremTok/13.png" style="height:31px; width:157px" /></p>
+
+	<p><strong>Закон Ома для цепи переменного тока:</strong> сила тока в цепи равна отношению напряжения, создаваемого в цепи генератора, к полному сопротивлению цепи переменного тока</p>
+
+	<p><img src="imge/PeremTok/14.png" style="height:41px; width:44px" /></p>
+
+	<p><img src="imge/PeremTok/15.png" style="height:109px; width:216px" /></p>
+
+	<p><img src="imge/PeremTok/16.png" style="height:127px; width:284px" /></p>
+
+	<p>В формуле <em>P=</em><em>IU</em><em>cos&phi;</em>, где <em>cos&phi;</em> показывает, какая часть электрической энергии преобразуется в другие виды энергии. Эта величина называется <strong>коэффициентом мощности</strong>. Уменьшение величины <em>cos&phi;</em> приводит к неполному использованию мощности источников переменного тока и к увеличению тепловых потерь в цепи.</p>
+
+	<p>&nbsp;</p>
+
+	<p><strong>ТРАНСФОРМАЦИЯ ПЕРЕМЕННОГО ТОКА</strong></p>
+
+	<p><strong><img src="imge/PeremTok/17.png" style="height:227px; width:623px" /></strong></p>
+
+	<p>&nbsp;</p>
+
+	<p>&nbsp;</p>
+
+	<p><strong>ПЕРЕДАЧА ЭЛЕКТРИЧЕСКОЙ ЭНЕРГИИ</strong></p>
+
+	<p style="margin-left:.75pt">Потеря мощности в проводах равна: <img src="imge/PeremTok/18.jpg" style="height:35px; width:76px" />&nbsp;то есть уменьшить потери в линии электропередачи длиной<em> l</em> можно, увеличивая сечение проводов <em>S</em> и напряжение <em>U.</em> На практике используют оба пути. U повышают более, чем до 10<sup>6</sup> В. При больших переменных напряжениях резко возрастают потери из-за коронного разряда. Потери становятся значительно меньше при использовании постоянного тока.</p>
+
+	<p>&nbsp;</p>
+
+	<p><img src="imge/PeremTok/19.png" style="height:177px; width:624px" /></p>
+
+</div>
+
+
+
+
+
+
+ <div class="content">
+           <div id="large-header" class="large-header" style="height:150px">
+						 <script src="https://yastatic.net/es5-shims/0.0.2/es5-shims.min.js"></script>
+						 <script src="https://yastatic.net/share2/share.js"></script>
+						 <div class="ya-share2" data-services="collections,vkontakte,facebook,odnoklassniki,telegram"></div>
+
+						 <div class="button">
+						     <a href="dokc/Rok.pdf">
+									 Руководство
+						         <span class="shift">›</span>
+						     </a>
+						     <div class="mask"></div>
+							  </div>
+
+
+ <!-- <Вверх> -->
+ <script type="text/javascript">
+ $('body').append('<div class="upbtn"></div>');
+ $(window).scroll(function() {
+   if ($(this).scrollTop() > 100) {
+   $('.upbtn').css({
+   bottom: '80px'
+   });
+   } else {
+   $('.upbtn').css({
+   bottom: '-80px'
+   });
+   }
+ });
+ $('.upbtn').on('click',function() {
+   $('html, body').animate({
+   scrollTop: 0
+   }, 500);
+   return false;
+ });
+ </script>
+ <!-- </Вверх> -->
+
+
+
+	</body>
+	</html>

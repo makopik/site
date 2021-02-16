@@ -1,0 +1,500 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="Utf-8">
+<Link rel="stylesheet" href="css/style.css"  to="css/text.css" to="css/menu.css">
+<Link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" type="text/css" href="css/normalize.css" />
+	<link rel="stylesheet" type="text/css" href="css/demo.css" />
+	<link rel="stylesheet" type="text/css" href="css/component.css" />
+
+
+<title>Физика</title>
+<link rel=" Shorctcut icon" type="../x-icon" href="imge/Logo.png">
+
+<script src="js/Back-top.js"></script>
+<script src="js/menu.js"></script>
+<script src="js/Js.js"></script>
+<script src="js/demo-4.js"></script>
+</head>
+
+<body>
+
+
+<div class=" warp">
+
+
+	<div class="canvas-wrap">
+	    <canvas id="canvas">
+
+
+	    </canvas>
+	</div>
+	<!-- filters -->
+	<svg xmlns="http://www.w3.org/2000/svg" version="1.1">
+	    <defs>
+	    <filter id="goo">
+	        <feGaussianBlur in="SourceGraphic" result="blur" stdDeviation="12" />
+	        <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -7" result="joint" />
+	    </filter>
+	    </defs>
+	</svg>
+				<h1 class="main-title">Физика</span></h1>
+</div>
+
+  <header>
+		<nav id='cssmenu'>
+  		<div class="logo"><a href="index.html">Физика</a></div>
+  		<div id="head-mobile"></div>
+  		<ul>
+  			<li class='active'><a href='index.html'>Введение</a></li>
+  			<li><a href='#'>Разделы</a>
+  				<ul>
+  					<li><a href='mex.html'>Механика</a>
+  					</li>
+  					<li><a href='mt.html'>Молекулярная физика и термодинамика</a>
+  					</li>
+  					<li><a href>Электродинамика</a>
+  						<ul>
+  						<li><a href='ElekStat.html'>Основы электростатики</a></li>
+  						<li><a href='PostElekTok.html'>Постоянный электрический ток</a></li>
+  						<li><a href='ElectTokVRazl.html'>Электрический ток в различных средах</a></li>
+  						<li><a href='RadFis.html'>Физические основы электроники</a></li>
+  						<li><a href='MagPole.html'>Магнитная поле тока</a></li>
+  						<li><a href='induks.html'>Электромагнитная индукция </a></li>
+  						</ul>
+  						</li>
+  									<li><a href='#'>Колебание и волн</a>
+  									<ul>
+  									<li><a href='PeremTok.html'>Переменный ток</a></li>
+  									<li><a href='MexKoleb_N_voln.html'>Механическое колебание и волны</a></li>
+  									</ul>
+  										<li><a href='OpSv.html'>Оптика и свет</a>
+  										</li>
+  										</ul>
+  										</li>
+  												<li><a href='#'>Задачи</a>
+  												<ul>
+  												<li><a  href="zad_Mex.html">Механика</a></li>
+  												<li><a href="Zad_MT.html">Молекулярная физика и термодинамика</a></li>
+  												<li><a href="Zad_Elektro.html">Электродинамика</a></li>
+  												<li><a href="Zad_Kol_Voln.html">Колебание и волны</a></li>
+  												<li><a href="Zad_Opt.html">Оптика</a></li>
+  												</ul>
+
+  														<li><a href='#'>Тесты</a>
+  														<ul>
+  														<li><a  href="TesMex.html">Механика</a></li>
+  														<li><a href="TesMT.html">Молекулярная физика и термодинамика</a></li>
+  														<li><a href="TesElektro.html">Электродинамика</a></li>
+  														<li><a href="TesKolNVoln.html">Колебание и волны</a></li>
+  														<li><a href="TesOpt.html">Оптика</a></li>
+  														</ul>
+  																<li><a href="Video_less.html">Видео уроки</a></li>
+
+<img src="imge/eisht.gif " align="right" height=" 50px" >
+  	</nav>
+  </header>
+
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <script src="js.js"></script>
+
+</div>
+
+<div id="text">
+ <H2 style="text-align:center"><strong><span style="color:black">ВВЕДЕНИЕ</span></strong></H2>
+
+
+
+<p><strong><span style="color:black">Материя&nbsp; и ее основные свойства</span></strong></p>
+
+<p style="text-align:justify"><strong><span style="color:black">1.Материя. </span></strong><span style="color:black">Все то, что нас окружает &mdash; голубое небо и солнце, воздух и вода, растения, птицы и животные, а также множество различных вещей, созданных руками человека, составляет природу, и сам человек является частью природы. Природа чрезвычайно разнообразна. Физические тела, составляющие ее, могут быть твердыми, жидкими и газообразными; они отличаются по форме, объему, составу и по целому ряду других признаков, которые мы различаем с помощью зрения, слуха и других органов наших чувств. Органами чувств воспринимаются не только тела,&mdash; на них действуют и свет, и тепло, и разнообразные звуки, и запахи.</span></p>
+
+<p style="text-align:justify"><em><span style="color:black">Все то, что существует вокруг нас независимо от нашего сознания и отражается им, называется материей, </span></em><span style="color:black">&laquo;...материя есть то, что, действуя на наши органы чувств, производит ощущение...&raquo;.</span></p>
+
+<p style="text-align:justify"><strong><span style="color:black">2.Основное свойство материи. </span></strong><span style="color:black">Все физические тела, свет, запахи, звуки (т. е. все то, что может вызывать у нас ощущения) обладают бесчисленным множеством самых разнообразных свойств. Но вместе с тем общее для них то, что и раскаты грома, и красивая радуга после дождя, и снежинки за окном, и свет далеких звезд существуют <em>реально, </em>независимо от того, воспринимаем мы их или нет, т. е. существуют <em>объективно. Объективное существование материи является ее основным свойством.</em></span></p>
+
+<p style="text-align:justify"><strong><span style="color:black">3.Вещество и поле. </span></strong><em><span style="color:black">Материя существует в двух неразрывно связанных между собой видах: в виде вещества и в виде поля. Вещество </span></em><span style="color:black">&mdash; <em>это вид материи, существующий как совокупность отдельных мельчайших частиц, между которыми имеются сравнительно большие промежутки. </em>Эти промежутки не являются пустыми, они заполнены полями. Поле &mdash; это вид материи, осуществляющий связь и взаимодействие между частицами вещества.</span></p>
+
+<p style="text-align:justify"><span style="color:black">В природе существует более 2 млн. различных веществ и всего несколько разновидностей полей: гравитационное, электромагнитное и ядерное. При определенных условиях частицы вещества могут превращаться в поле, и, наоборот, поле превращается и вещество. Вещество и поле неразрывно связаны&nbsp;&nbsp; между&nbsp;&nbsp; собой.</span></p>
+
+<p style="text-align:justify"><strong><span style="color:black">4.Закон сохранения</span></strong><span style="color:black"> <strong>материи. </strong>Материя никогда и никем не была создана и не может быть уничтожена: материя существует вечно. Материя не может возникнуть <strong>из </strong>ничего <strong>и </strong>не может бесследно исчезнуть; она только из одного вида переходит в другой в равновеликих количествах. Это утверждение формулирует основной закон природы &mdash; закон сохранения материи. Он отражает одно из основных свойств материи и был сформулирован выдающимся русским ученым М. В. Ломоносовым.</span></p>
+
+<p style="text-align:justify"><strong><span style="color:black">5.Движение &mdash; неотъемлемое свойство материи</span></strong><span style="color:black">. Все окружающие нас материальные объекты не остаются раз и навсегда неизменными. С течением времени изменяется их форма, размеры, цвет, внутренняя структура, агрегатное состояние, их физические и химические свойства. <em>Всякое изменение материального объекта называется движением материи.</em></span></p>
+
+<p style="text-align:justify"><span style="color:black">По улицам наших городов движутся автомобили, троллейбусы и пешеходы, высоко в небе проплывают облака, ранней весной распускаются почки, появляются молодые листья и веточки. Постоянные движения совершает сердце человека, кровь и лимфа в сосудах. Мы решаем задачу или беседуем с товарищем и в клетках головного мозга проис&shy;ходят своеобразные и очень сложные движении.</span></p>
+
+<p style="text-align:justify"><span style="color:black">&laquo;Движение . . . обнимает собой все происходящие во вселенной изменения и процессы, начиная от простого перемещения и кончая мышлением&raquo;. Материя всегда находится в состоянии движения и не может существовать без него. Движение &mdash;</span> <span style="color:black">неотъемлемое свойство&nbsp; материи.</span></p>
+
+<p style="text-align:justify"><span style="color:black">Движения, совершаемые материальными объектами, крайне многообразны. Среди различных форм движения материи можно выделить наиболее простые: механическую, тепловую, электромагнитную, ядерную и взаимопревращаемость простейших (элементарных) частиц. Это &mdash; физические формы движения материи. Они присущи как неживой, так и живой природе, всем физическим, химическим и биологическим процессам.</span></p>
+
+<p style="text-align:justify"><span style="color:black">Движущаяся материя существует в пространстве и времени. Все материальные объекты занимают определенное положение в выбранной нами системе отсчета и имеют</span> <span style="color:black">определенные размеры, т. е. протяженность. Это означает, что все материальные объекты существуют в пространстве. <em>Пространство определяет взаимное расположение тел и частиц относительно друг друга и их относительную величину.</em></span></p>
+
+<p style="text-align:justify"><span style="color:black">Всё явления в природе происходят в определенной последовательности и имеют конечную продолжительность. Это означает, что любое движение материи происходит во времени. <em>Время определяет последовательность явлений природы и их относительную длительность.</em></span></p>
+
+<p style="text-align:justify"><span style="color:black">Пространство и время не- существуют отдельно от материальных объектов и явлений природы, поскольку невозможно измерить длину отдельно от тела и промежуток времени &mdash; отдельно от процесса. Геометрия пространства и ритм времени определяются движущейся материей.</span></p>
+
+<p>&nbsp;</p>
+
+
+<p><span style="color:black"></span></p>
+
+<p><strong><span style="color:black">Физические величины и их измерение</span></strong></p>
+
+<p style="text-align:justify"><span style="color:black">1.Физическая величина. Измерение физических величин. Окружающая нас материя обладает бесчисленным множеством свойств. <em>Измеримое на опыте свойство материи или характерная особенность физического явления называется физической величиной. </em>Каждая физическая величина характеризуется качественно и количественно. Качественная сторона показывает, какое именно свойство материи или особенность явления характеризует физическая величина. Количественная сторона показывает, в какой мере проявляется данное свойство материи или особенность физического явления. Так, например, перемещение тела в пространстве характеризуется скоростью движения,&nbsp; изменение</span> <span style="color:black">скорости тела &mdash; ускорением, инертные свойства тела &mdash; его массой: Физические величины &mdash; скорость, ускорение и масса тела &mdash; отражают различные качественные стороны физических явлений и тел. Их количественные значения Определяются на опыте путем измерения.</span></p>
+
+<p style="text-align:justify"><span style="color:black">Чтобы измерить физическую величину, необходимо: 1) <em>выбрать единицу ее измерения </em>и 2) <em>сравнить измеряемую величину с единицей измерения </em>(т. е. установить способ из&shy;мерения). Так, при измерении длины различных стержней длину одного из них можно условно принять за единицу длины, а затем определить, сколько раз она содержится в других стержнях. Таким образом, измерить физическую величину &mdash; это означает произвести ряд эксперименталь&shy;ных и вычислительных операций для нахождения ее коли&shy;чественного значения.</span></p>
+
+<p style="text-align:justify"><span style="color:black">2.Числовое значение физической величины. <em>Число, получаемое в результате сравнения физической величины с единицей ее измерения, называется числовым значением физической величины. </em>Возле числового значения физической величины всегда записывается наименование, размерность той единицы измерения, с которой производилось сравнение: 5 м, 20 с, 2,5 кг. Числовое значение физической величины без наименования не имеет смысла, так как неизвестно, с какой единицей производилось сравнение. Так, например, числовые значения роста человека 0,0017, 1,7, 170, 1700 приобретают смысл, если указывается единица измерения &mdash; 0,0017 км, 1,7 м, 170 см, 1700 мм. Из этого примера видно также, что для измерения физических величин необходимо выбирать удобные для практического использования единицы измерения.</span></p>
+
+<p style="text-align:justify"><span style="color:black">3.Система единиц. Единицы измерения всех физических величин можно выбирать произвольно и совершенно независимо друг от друга. Однако в этом случае в формулы всех физических законов необходимо вводить некоторые коэффициенты пропорциональности <em>к, </em>величина которых зависит от выбора единиц измерения.</span></p>
+
+<p style="text-align:justify"><span style="color:black">Удобен такой выбор единиц измерения, при котором произвольно и независимо друг от друга устанавливаются единицы измерения для сравнительно небольшого числа величин, а все остальные единицы измерения устанавливаются на основе известных закономерностей, существующих между этими величинами.</span></p>
+
+<p style="text-align:justify"><em><span style="color:black">Единицы физических величин, которые устанавливаются произвольно и независимо от других, называются основными. Единицы физических величин, зависимые от основных и устанавливаемые на основе известных физических закономерностей, называются производными. Совокупность основных и производных единиц физических величин составляет систему единиц.</span></em></p>
+
+<p style="text-align:justify"><span style="color:black">4.Международная система единиц СИ. В настоящее время разработана и принята Международная система единиц (сокращенно СИ &mdash; система интернациональная). В ней в качестве основных единиц выбраны единицы физических величин, которые характеризуют наиболее существенные свойства и особенности механических, тепловых, электромагнитных и оптических явлений:</span></p>
+
+<p><span style="color:black">Единица длины
+&nbsp;&nbsp;&mdash; метр&nbsp; (м)</span></p>
+
+<p><span style="color:black">Единица массы&nbsp;
+&mdash; килограмм (кг)</span></p>
+
+<p><span style="color:black">Единица времени&nbsp;&nbsp; &mdash; секунда (с)</span></p>
+
+<p><span style="color:black">Единица температуры&nbsp;&nbsp; &mdash; кельвин (К)</span></p>
+
+<p><span style="color:black">Единица силы тока&nbsp;&nbsp; &mdash; ампер&nbsp;&nbsp; (А)</span></p>
+
+<p><span style="color:black">Единица силы света&nbsp;&nbsp; &mdash; наплела (кд) </span></p>
+
+<p><span style="color:black">Единица количества вещества &mdash; моль&nbsp;&nbsp; (моль)</span></p>
+
+<p style="text-align:justify"><span style="color:black">Каждая единица измерения содержит строго определенное количество измеряемой величины. Его называют <em>размером </em>единицы измерения. Размер единицы измерения устанавливается с помощью мер и измерительных приборов. Мера &mdash; это средство измерения, с помощью которого получают физическую величину заданного размера. Например, гиря &mdash; мера массы, линейка &mdash; мера длины, мерные ци&shy;линдры &mdash; мера объема и т. д. Для основных единиц изготовляются эталонные меры. Они воспроизводят размер единицы измерения с максимально возможной точностью. Эталонные меры хранятся в специальных научных учреждениях &mdash; институтах метрологии &mdash; в особых неизменных условиях.</span></p>
+
+<p style="text-align:justify"><span style="color:black">5. Выбор производных единиц измерения. Все производные единицы измерения устанавливаются на основе уравнений, выражающих физические законы. <em>Уравнение, принятое для установления производной единицы измерения данной физической величины, называется определяющим уравнением. </em>Обычно в качестве определяющих уравнений выбирают такие физические закономерности (формулы), в которых физические величины связаны наиболее простыми соотношениями.</span></p>
+
+<p style="text-align:justify"><span style="color:black">6.Внесистемные единицы измерения. Наряду с единицами систем СИ в практике применяется целый ряд единиц измерения, которые устанавливаются независимо от общепринятых систем единиц. Такие единицы измерения называются <em>внесистемными. </em>Например, минута, час &mdash; единицы времени, литр &mdash; единица объема, градус Цельсия &mdash; единица температуры и т. д.</span></p>
+
+<p style="text-align:justify"><span style="color:black">К внесистемным единицам относятся также кратные и дольные единицы измерения. Кратные единицы измерения получают из основной или производной единицы, умножаяее на целое число, кратное 10. Дольные единицы измерения получают путем деления основной или производной единицы на целое число, кратное 10. Кратные и дольные приставки имеют специальные названия (см.табл 1). По этому принципу построены кратные и дольные единицы всех физических величин, за исключением единиц измерения времени и углов.</span></p>
+
+<p style="text-align:justify"><span style="color:black">В дальнейшем мы будем пользоваться преимущественно единицами системы СИ.</span></p>
+
+<p>&nbsp;</p>
+
+<table border="1" cellspacing="0" class="Table" style="border-collapse:collapse; border:solid black 1.0pt; width:479.25pt">
+    <tbody>
+        <tr>
+            <td colspan="3" style="width:234.0pt">
+            <p style="text-align:center"><span style="color:black">Кратные единицы</span></p>
+            </td>
+            <td colspan="3" style="width:231.75pt">
+            <p style="text-align:center"><span style="color:black">Дольные единицы</span></p>
+            </td>
+        </tr>
+        <tr>
+            <td style="width:20pt">
+            <p style="text-align:right"><span style="color:black">Множитель, на который умножается единица</span></p>
+            </td>
+            <td style="width:51.0pt">
+            <p style="text-align:center"><span style="color:black">Приставка</span></p>
+            </td>
+            <td style="width:20pt">
+            <p style="text-align:center"><span style="color:black">Обозначение</span></p>
+            </td>
+            <td style="width:105.0pt">
+            <p style="text-align:right"><span style="color:black">Множитель, на который умножается единица</span></p>
+            </td>
+            <td style="width:49.5pt">
+            <p style="text-align:center"><span style="color:black">Приставка</span></p>
+            </td>
+            <td style="width:65.25pt">
+            <p style="text-align:center"><span style="color:black">Обозначение</span></p>
+            </td>
+        </tr>
+        <tr>
+            <td style="width:108.75pt">
+            <p style="text-align:center"><span style="color:black">10<sup>12</sup></span></p>
+            </td>
+            <td style="width:51.0pt">
+            <p style="text-align:center"><span style="color:black">терра</span></p>
+            </td>
+            <td style="width:63.0pt">
+            <p style="text-align:center"><span style="color:black">Т</span></p>
+            </td>
+            <td style="width:105.0pt">
+            <p style="text-align:center"><span style="color:black">10<sup>-2</sup></span></p>
+            </td>
+            <td style="width:49.5pt">
+            <p style="text-align:center"><span style="color:black">санти</span></p>
+            </td>
+            <td style="width:65.25pt">
+            <p style="text-align:center"><span style="color:black">с</span></p>
+            </td>
+        </tr>
+        <tr>
+            <td style="width:108.75pt">
+            <p style="text-align:center"><span style="color:black">10<sup>9</sup></span></p>
+            </td>
+            <td style="width:51.0pt">
+            <p style="text-align:center"><span style="color:black">гига</span></p>
+            </td>
+            <td style="width:63.0pt">
+            <p style="text-align:center"><span style="color:black">Г</span></p>
+            </td>
+            <td style="width:105.0pt">
+            <p style="text-align:center"><span style="color:black">10<sup>-3</sup></span></p>
+            </td>
+            <td style="width:49.5pt">
+            <p style="text-align:center"><span style="color:black">милли</span></p>
+            </td>
+            <td style="width:65.25pt">
+            <p style="text-align:center"><span style="color:black">м</span></p>
+            </td>
+        </tr>
+        <tr>
+            <td style="width:108.75pt">
+            <p style="text-align:center"><span style="color:black">10<sup>6</sup></span></p>
+            </td>
+            <td style="width:51.0pt">
+            <p style="text-align:center"><span style="color:black">мега</span></p>
+            </td>
+            <td style="width:63.0pt">
+            <p style="text-align:center"><span style="color:black">М</span></p>
+            </td>
+            <td style="width:105.0pt">
+            <p style="text-align:center"><span style="color:black">10<sup>-6</sup></span></p>
+            </td>
+            <td style="width:49.5pt">
+            <p style="text-align:center"><span style="color:black">микро</span></p>
+            </td>
+            <td style="width:65.25pt">
+            <p style="text-align:center"><span style="color:black">мк</span></p>
+            </td>
+        </tr>
+        <tr>
+            <td style="width:108.75pt">
+            <p style="text-align:center"><span style="color:black">10<sup>3</sup></span></p>
+            </td>
+            <td style="width:51.0pt">
+            <p style="text-align:center"><span style="color:black">кило</span></p>
+            </td>
+            <td style="width:63.0pt">
+            <p style="text-align:center"><span style="color:black">к</span></p>
+            </td>
+            <td style="width:105.0pt">
+            <p style="text-align:center"><span style="color:black">10<sup>-9</sup></span></p>
+            </td>
+            <td style="width:49.5pt">
+            <p style="text-align:center"><span style="color:black">нано</span></p>
+            </td>
+            <td style="width:65.25pt">
+            <p style="text-align:center"><span style="color:black">н</span></p>
+            </td>
+        </tr>
+        <tr>
+            <td style="width:108.75pt">
+            <p style="text-align:center"><span style="color:black">10<sup>2</sup></span></p>
+            </td>
+            <td style="width:51.0pt">
+            <p style="text-align:center"><span style="color:black">гекто</span></p>
+            </td>
+            <td style="width:63.0pt">
+            <p style="text-align:center"><span style="color:black">г</span></p>
+            </td>
+            <td style="width:105.0pt">
+            <p style="text-align:center"><span style="color:black">10<sup>-12</sup></span></p>
+            </td>
+            <td style="width:49.5pt">
+            <p style="text-align:center"><span style="color:black">пико</span></p>
+            </td>
+            <td style="width:65.25pt">
+            <p style="text-align:center"><span style="color:black">п</span></p>
+            </td>
+        </tr>
+        <tr>
+            <td style="width:108.75pt">
+            <p style="text-align:center"><span style="color:black">10<sup>1</sup></span></p>
+            </td>
+            <td style="width:51.0pt">
+            <p style="text-align:center"><span style="color:black">дека</span></p>
+            </td>
+            <td style="width:63.0pt">
+            <p style="text-align:center"><span style="color:black">да</span></p>
+            </td>
+            <td style="width:105.0pt">
+            <p style="text-align:center"><span style="color:black">10<sup>-15</sup></span></p>
+            </td>
+            <td style="width:49.5pt">
+            <p style="text-align:center"><span style="color:black">фемто</span></p>
+            </td>
+            <td style="width:65.25pt">
+            <p style="text-align:center"><span style="color:black">ф</span></p>
+            </td>
+        </tr>
+        <tr>
+            <td style="width:108.75pt">
+            <p style="text-align:center"><span style="color:black">10<sup>-1</sup></span></p>
+            </td>
+            <td style="width:51.0pt">
+            <p style="text-align:center"><span style="color:black">деци</span></p>
+            </td>
+            <td style="width:63.0pt">
+            <p style="text-align:center"><span style="color:black">д</span></p>
+            </td>
+            <td style="width:105.0pt">
+            <p style="text-align:center"><span style="color:black">10<sup>-18</sup></span></p>
+            </td>
+            <td style="width:49.5pt">
+            <p style="text-align:center"><span style="color:black">атто</span></p>
+            </td>
+            <td style="width:65.25pt">
+            <p style="text-align:center"><span style="color:black">а</span></p>
+            </td>
+        </tr>
+    </tbody>
+</table>
+
+<p>&nbsp;</p>
+
+<p><strong><span style="color:black">Погрешности </span></strong><strong><span style="color:black">измерений физических величин</span></strong></p>
+
+<p style="text-align:justify"><span style="color:black">1. Систематические и случайные погрешности измерения.</span></p>
+
+<p style="text-align:justify"><span style="color:black">Физика &mdash; наука опытная. Все фундаментальные закономерности в физической науке получены в результате измерения. Однако результат измерения никогда не бывает абсолютно точным: при любом измерении неизбежно возникает та или иная погрешность.</span></p>
+
+<p style="text-align:justify"><span style="color:black">Погрешности бывают систематические и случайные. Источниками систематических погрешностей могут быть: а) погрешности, обусловливаемые несовершенством измерительных приборов и мер; б) погрешности, обусловливаемые влиянием внешних факторов па изучаемое явление; в) погрешности, обусловливаемые неправильной установкой измерительных приборов или их отдельных частей.</span></p>
+
+<p style="text-align:justify"><span style="color:black">Случайные погрешности зависят от индивидуальных особенностей экспериментатора: аккуратности и тщательности выполнения измерений, внимательности и практического опыта, остроты слуха, зрения и т. д. Случайные погрешности могут возникать в результате изменений условий опыта независимо от экспериментатора: изменение температуры, давления, сетевого напряжения и т. д.</span></p>
+
+<p style="text-align:justify"><span style="color:black">2.Абсолютная погрешность. Случайные погрешности можно свести к минимуму путем многократных измерений одной и той же величины <em>а </em>при одинаковых условиях опыта. Тогда мы получим несколько различных ее значений:</span><span style="color:black">N</span><span style="color:black">1;</span><span style="color:black">N</span><span style="color:black">2;</span><span style="color:black">N</span><span style="color:black">3;</span><span style="color:black">N</span><span style="color:black">4;&hellip;</span><span style="color:black">N<sub>n</sub></span></p>
+
+<p style="text-align:justify"><span style="color:black">Определим среднее арифметическое значение&nbsp; измеряемой&nbsp; величины:</span></p>
+
+<p><img src="imge/formyll N1.png" style="height:33px; width:180px" /></p>
+
+<p style="text-align:justify"><span style="color:black">Результаты отдельных измерений могут быть как больше, так и меньше истинного значения измеряемой величины. Однако при многократных измерениях эти различия</span> <span style="color:black">взаимно компенсируются и поэтому среднее арифметическое является наиболее точным значением измеряемой величины. <em>Абсолютная величина разности между точным а и приближенным Значением измеряемой величины а</em></span><em><sub><span style="color:black">n</span></sub><span style="color:black"> называется абсолютной погрешностью измерения:</span></em></p>
+
+<p><img src="imge/formyl2 [Ni].png" style="height:15px; width:96px" /></p>
+
+<p style="text-align:justify"><span style="color:black">3.Определение абсолютной погрешности при многократных и однократном измерениях. </span><span style="color:black">При многократных измерениях абсолютная погрешность измеряемой величины представляет собой среднее арифметическое абсолютных погрешностей отдельных измерений:</span></p>
+
+<p><img src="imge/formyl3 ___N1+N2______.png" style="height:31px; width:225px" /></p>
+
+<p style="text-align:justify"><span style="color:black">При однократном измерении абсолютная погрешность определяется классом точности прибора или ценой его минимального деления. <em>Класс точности измерительного прибора к показывает, какую долю составляет абсолютная погрешность </em>Да <em>от предельного значения А его шкалы:</em></span></p>
+
+<p style="text-align:justify"><span style="color:black">Если класс точности измерительного прибора неизвестен, тогда абсолютная погрешность определяется по цене его минимального деления. <em>За величину абсолютной погрешности принимают половину цены минимального деления измерительного прибора. </em>Так, если цена деления амперметра равна 0,1 А, то абсолютная погрешность измерения силы тока А/= 0,05 А.</span></p>
+
+<p style="text-align:justify"><span style="color:black">4.Относительная погрешность.<strong> </strong>Для определения точности измерения следует вычислить величину абсолютной погрешности, допущенной на каждую единицу измерения. <em>Отношение абсолютной погрешности </em>Да <em>измерения к приближенному значению измеряемой величины а</em></span><em><sub><span style="color:black">n</span></sub><span style="color:black"> называется относительной погрешностью измерения. </span></em><span style="color:black">Относительная погрешность&nbsp;&nbsp; измерения обычно выражается в процентах:</span></p>
+
+<p><img src="imge/formyl4 ENN.png" style="height:50px; width:70px" /></p>
+
+<p style="text-align:justify"><span style="color:black">Окончательный результат измерений записывается в виде: <em>а=а<sub>0</sub>&plusmn;А</em></span><em><sub><span style="color:black">n</span></sub><span style="color:black">. </span></em><span style="color:black">Эта запись обозначает, что истинное значение измеряемой величины неизвестно, но оно не больше, чем <em>а<sub>0</sub>-\-А</em></span><em><span style="color:black">n</span><span style="color:black">, </span></em><span style="color:black">и не меньше, чем <em>а<sub>0</sub></em>&mdash;</span><span style="color:black">An</span><span style="color:black">. Так, например, длина стола /=150&plusmn;0,5 см, значит истинная длина стола заключена&nbsp; в&nbsp; пределах&nbsp;&nbsp; 150,5 см-149,5 см.</span></p>
+
+<p style="text-align:justify"><span style="color:black">5.Прямое и косвенное измерения. На практике различают два способа измерения: прямое и косвенное. Измерение, при котором числовое значение физической величины находят путем сравнения с единицей ее измерения, называется <em>прямым измерением. </em>Так, например, длина стержня, масса тела, сила тока определяются непосредственно.</span></p>
+
+<p style="text-align:justify"><span style="color:black">Однако прямые измерения не всегда выполнимы, удобны и достаточно точны. Так, если требуется определить площадь прямоугольника, то удобнее измерить его длину <em>а </em>и ширину <em>Ь, </em>а затем по формуле <em>аЬ </em>вычислить его площадь. Измерение, при котором числовое значение физической величины находят по формуле путем вычисления, называется <em>косвенным измерением. </em>В подавляющем большинстве случаев измерение физических величин является косвенным.</span></p>
+
+<p style="text-align:justify"><span style="color:black">6.Определение погрешностей при косвенных измерениях путем вычисления границ искомой величины. Рассмотрим способ определения абсолютной и относительной погрешностей на примере измерения электрического сопротивления. Пусть при помощи амперметра и вольтметра определили, что сила тока в цепи </span><span style="color:black">I</span><span style="color:black">=(1,20&plusmn;0,05)А, а напряжение </span><em><span style="color:black">U</span></em><span style="color:black">=(4,8&plusmn;0,1)В. Электрическое сопротивление </span><span style="color:black">R</span><span style="color:black">= </span><span style="color:black">U</span><span style="color:black">/.</span></p>
+
+<p style="text-align:justify"><span style="color:black">Чтобы</span> <span style="color:black">определить абсолютную и относительную погрешности, допущенные при измерении электрического сопротивления, поступаем следующим образом:</span></p>
+
+<p style="text-align:justify"><span style="color:black">а)&nbsp; определяем верхнюю и нижнюю границы величин, измеренных непосредственно:</span></p>
+
+<p style="text-align:justify"><span style="color:black">I</span><sub><span style="color:black">1</span></sub><span style="color:black"> = 1,25А; </span><span style="color:black">U</span><sub><span style="color:black">1</span></sub><span style="color:black"> = 4,9В; </span><span style="color:black">I</span><sub><span style="color:black">2</span></sub><span style="color:black">=1,15А; </span><span style="color:black">U</span><sub><span style="color:black">2</span></sub><span style="color:black"> = 4,7В;</span></p>
+
+<p style="text-align:justify"><span style="color:black">б)&nbsp; определяем верхнюю и нижнюю границы искомой величины:</span></p>
+
+<p style="text-align:justify"><span style="color:black">в)&nbsp; определяем среднее значение верхней и нижней границ:</span></p>
+
+<p style="text-align:justify"><span style="color:black">г)&nbsp; определяем абсолютную погрешность искомой величины:</span></p>
+
+<p style="text-align:justify"><span style="color:black">д)&nbsp; вычисляем&nbsp; относительную&nbsp; погрешность&nbsp; измерений</span></p>
+
+<p style="text-align:justify"><span style="color:black">7.Определение погрешностей при косвенных измерениях с помощью приближенных формул. Обычно относительную и абсолютную погрешности определяют с помощью приближенных формул.</span></p>
+
+<p style="margin-left:35.4pt; text-align:justify">Если N<sub>1</sub>, N<sub>2</sub> ,N<sub>3</sub>, N<sub>4</sub>, N<sub>5</sub>, &hellip;..&nbsp; N<sub>n</sub>&nbsp; - результаты отдельных измерений величины x, то средний результат равен их сумме, деленной на число измерений:</p>
+
+<p style="margin-left:35.4pt; text-align:justify"></p>
+
+<p style="margin-left:35.4pt; text-align:justify"><img src="imge/formyl5 ___N1+N2+N3+...+Nn____.png" style="height:33px; width:180px" /></p>
+
+<p style="margin-left:35.4pt; text-align:justify">Разность между результатом отдельного измерения и средним результатом, взятую по модулю, называют абсолютной погрешностью отдельного измерения:</p>
+
+<p style="margin-left:35.4pt; text-align:justify"></p>
+
+<p style="margin-left:35.4pt; text-align:justify"><img src="imge/formyl6 Ni=[ni-n].png" style="height:30px; width:111px" /></p>
+
+<p style="margin-left:35.4pt; text-align:justify"></p>
+
+<p style="margin-left:35.4pt; text-align:justify">Средняя абсолютная погрешность определяется аналогично среднему результату:</p>
+
+<p style="text-align:justify"></p>
+
+<p style="margin-left:35.4pt; text-align:justify"><img src="imge/formyl7 N= ___N1+N2+N3+...+Nn____n.png" style="height:31px; width:225px" /></p>
+
+<p style="margin-left:35.4pt; text-align:justify"></p>
+
+<p style="margin-left:35.4pt; text-align:justify">Относительная погрешность равна отношению средней абсолютной погрешности к среднему результату</p>
+
+<p style="margin-left:35.4pt; text-align:justify"></p>
+
+<p style="margin-left:35.4pt; text-align:justify"><img src="imge/formyl8  E=Nn.png" style="height:50px; width:70px" /></p>
+
+<p style="margin-left:35.4pt; text-align:justify"></p>
+
+<p style="margin-left:35.4pt; text-align:justify">Окончательтный результат записывается равенством</p>
+
+<p style="margin-left:35.4pt; text-align:justify"><img src="imge/formyl9  X=N+-N.png" style="height:30px; width:70px" /></p>
+
+<p style="margin-left:35.4pt; text-align:justify">
+
+<p style="margin-left:35.4pt; text-align:justify"><img src="imge/formyl10 E=NN100.png" style="height:33px; width:97px" /></p>
+
+
+
+ </div>
+
+
+
+  <div class="content">
+            <div id="large-header" class="large-header" style="height:150px">
+ 						 <script src="https://yastatic.net/es5-shims/0.0.2/es5-shims.min.js"></script>
+ 						 <script src="https://yastatic.net/share2/share.js"></script>
+ 						 <div class="ya-share2" data-services="collections,vkontakte,facebook,odnoklassniki,telegram"></div>
+
+ 						 <div class="button">
+ 						     <a href="dokc/Rok.pdf">
+ 									 Руководство
+ 						         <span class="shift">›</span>
+ 						     </a>
+ 						     <div class="mask"></div>
+ 							  </div>
+
+ <!-- <Вверх> -->
+ <script type="text/javascript">
+ $('body').append('<div class="upbtn"></div>');
+ $(window).scroll(function() {
+   if ($(this).scrollTop() > 100) {
+   $('.upbtn').css({
+   bottom: '80px'
+   });
+   } else {
+   $('.upbtn').css({
+   bottom: '-80px'
+   });
+   }
+ });
+ $('.upbtn').on('click',function() {
+   $('html, body').animate({
+   scrollTop: 0
+   }, 500);
+   return false;
+ });
+ </script>
+ <!-- </Вверх> -->
+
+</body>
+</html>
